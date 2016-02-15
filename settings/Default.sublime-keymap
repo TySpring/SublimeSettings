@@ -1,0 +1,7 @@
+[
+	{ "keys": ["ctrl+super+right"], "command": "jump_forward" },
+	{ "keys": ["ctrl+super+left"], "command": "jump_back" },
+
+	{ "keys": ["super+shift+c"], "command": "filename_to_clipboard" }, // <== copies entire path...
+	{ "keys": ["super+shift+a+c"], "command": "copy_path" },
+]

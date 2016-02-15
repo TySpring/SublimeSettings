@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Babel",
+		"Babel Snippets",
+		"Better CoffeeScript",
+		"Case Conversion",
+		"Cucumber",
+		"FuzzyFilePath",
+		"Git",
+		"GitGutter",
+		"GoldenRatio",
+		"JavaScript & NodeJS Snippets",
+		"JsFormat",
+		"Package Control",
+		"Ruby Slim",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-jsxhint",
+		"SublimeLinter-rubocop",
+		"SublimeLinter-ruby",
+		"Surround"
+	]
+}

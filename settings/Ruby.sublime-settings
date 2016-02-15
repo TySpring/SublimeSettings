@@ -1,0 +1,8 @@
+{
+  // Colors
+  //"color_scheme": "Packages/RailsCasts Colour Scheme/RailsCastsColorScheme.tmTheme",
+  //"theme": "Soda Light 3.sublime-theme",
+
+  "word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
+  "trim_trailing_white_space_on_save": true
+}

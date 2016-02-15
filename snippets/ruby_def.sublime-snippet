@@ -1,0 +1,13 @@
+<!-- NOTE: CURRENTLY NOT USED -->
+
+<snippet>
+	<content><![CDATA[
+def ${1:method}
+  ${2:#body}
+end
+]]></content>
+	<!-- NOTE: CURRENTLY NOT USED -->
+	<tabTrigger>__def__</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.ruby</scope>
+</snippet>

@@ -1,0 +1,25 @@
+[
+  // surround: mapped (somewhat-ish) to vim thing
+  { "keys": ["ctrl+y", "ctrl+s", "ctrl+s"], "command": "surround_selection" },
+  { "keys": ["ctrl+c", "ctrl+s"], "command": "surround_change" },
+  { "keys": ["ctrl+d", "ctrl+s"], "command": "surround_delete" },
+
+  { "keys": ["super+'"], "command": "surround_selection", "args": {"surround":"'"} },
+  { "keys": ["super+shift+'"], "command": "surround_selection", "args": {"surround":"\""} },
+  
+  //these override tabbing commands, but can still use 
+  // TODO
+
+  // macros:
+  { "keys": ["ctrl+option+q"], "command": "save_macro" }, // bc right next to ctrl+shift+q, which is run_macro
+
+  // delete line, easier
+  { "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+  //goto definition:
+  { "keys": ["super+enter"], "command": "goto_definition", "context":
+    [
+      { "key": "num_selections", "operator": "equal", "operand": 1 }
+    ]
+  }
+]
